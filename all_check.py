@@ -10,6 +10,7 @@ def main():
   if check_reboot():
     print("Reboot is pending")
     print("All ok")
+    print("Author: Dilip singh Kushwah")
     sys.exit(1)
 
 main()
