@@ -8,6 +8,7 @@ def check_reboot():
 
 def main():
   if check_reboot():
+    print("this is just a test code")
     print("Reboot is pending")
     print("All ok")
     print("Author: Dilip singh Kushwah")
