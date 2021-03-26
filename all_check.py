@@ -12,6 +12,7 @@ def main():
     print("Reboot is pending")
     print("All ok")
     print("Author: Dilip singh Kushwah")
+    print("email: dilipsinghoxox@gmail.com")
     sys.exit(1)
 
 main()
