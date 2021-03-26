@@ -11,7 +11,7 @@ def main():
     print("this is just a test code!!")
     print("Reboot is pending")
     print("All ok")
-    print("Author: Dilip singh Kushwah")
+    print("Author: Dilip singh Kushwah. from CS department")
     sys.exit(1)
 
 main()
