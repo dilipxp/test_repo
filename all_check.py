@@ -2,18 +2,18 @@
 import os
 import sys
 
-def check_reboot():
-  """Rerturns T if the computer has a pending reboot!"""
-  return os.path.exists('*/run/reboot-required')
 
 def main():
-  if check_reboot():
-    print("this is just a test code!!")
-    print("Reboot is pending")
-    print("All ok")
+    print("this is just a test gti repo!!")
+    print("================================================")
     print("Author: Dilip singh Kushwah. from CS department")
     print("email: dilipsinghoxox@gmail.com")
     print("this file is obsolete!")
+    print("user name: dilipxp")
+    print("==================================================")
+    print("total git branches")
+    print("1. origin/main\n2. refactor")
+>>>>>>> 1e56828a5c2afda2daf4d08fbc54087a5a3a9974
     sys.exit(1)
 
 main()
