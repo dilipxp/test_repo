@@ -1,19 +1,15 @@
 #!/usr/bin/env python3
 import os
 import sys
+import shutil
 
+def memory_info():
+    total, used, free = shutil.disk_usage("/mnt/c")
+    print("Total: %d Gib" % (total // (2**30)))
+    print("Used: %d Gib" % (used // (2**30)))
+    print("Free: %d Gib" % (free // (2**30)))
 
 def main():
-    print("this is just a test gti repo!!")
-    print("================================================")
-    print("Author: Dilip singh Kushwah. from CS department")
-    print("email: dilipsinghoxox@gmail.com")
-    print("this file is obsolete!")
-    print("user name: dilipxp")
-    print("==================================================")
-    print("total git branches")
-    print("1. origin/main\n2. refactor")
->>>>>>> 1e56828a5c2afda2daf4d08fbc54087a5a3a9974
-    sys.exit(1)
+    memory_info()
 
 main()
