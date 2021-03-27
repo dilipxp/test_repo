@@ -8,9 +8,8 @@ def check_reboot():
 
 def main():
   if check_reboot():
-    print("this is just a test code!!")
-    print("Reboot is pending")
-    print("All ok")
+    print("this is just a test gti repo!!")
+    print("================================================")
     print("Author: Dilip singh Kushwah. from CS department")
     print("email: dilipsinghoxox@gmail.com")
     print("user name: dilipxp")
